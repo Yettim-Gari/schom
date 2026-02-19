@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Child O' Mine — Guns N' Roses</title>
+
+<style>
+:root{
+    --gold:#d4af37;
+    --dark:#0c0c0c;
+    --card:#161616;
+    --text:#e6e6e6;
+}
+
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    background:var(--dark);
+    color:var(--text);
+    font-family:Segoe UI,Arial,sans-serif;
+}
+
+/* HERO */
+.hero{
+    height:420px;
+    background:linear-gradient(to bottom,rgba(0,0,0,.4),#0c0c0c),
+    url("https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=1400");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-bottom:2px solid var(--gold);
+    text-align:center;
+}
+
+.hero h1{
+    font-size:clamp(40px,7vw,70px);
+    letter-spacing:6px;
+    margin:0;
+    color:var(--gold);
+    text-shadow:0 0 25px rgba(212,175,55,.6);
+}
+
+.hero p{
+    letter-spacing:4px;
+    opacity:.8;
+}
+
+/* PLAYER CARD */
+.card{
+    width:90%;
+    max-width:900px;
+    margin:-70px auto 40px;
+    background:var(--card);
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 20px 50px rgba(0,0,0,.8);
+    border:1px solid #2a2a2a;
+}
+
+.video-placeholder{
+    width:100%;
+    aspect-ratio:16/9;
+    border-radius:12px;
+    border:2px dashed var(--gold);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    letter-spacing:2px;
+    color:var(--gold);
+}
+
+/* SECTIONS */
+.section{
+    max-width:900px;
+    margin:50px auto;
+    padding:0 20px;
+    line-height:1.8;
+}
+
+.section h2{
+    color:var(--gold);
+    text-transform:uppercase;
+    letter-spacing:3px;
+    margin-bottom:20px;
+}
+
+/* LYRICS */
+.lyrics{
+    font-size:20px;
+    text-align:center;
+    font-style:italic;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:40px;
+    opacity:.4;
+    border-top:1px solid #222;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <h1>SWEET CHILD O' MINE</h1>
+    <p>GUNS N' ROSES</p>
+</section>
+
+<div class="card">
+    <h2 style="text-align:center;color:var(--gold)">Official Music Video</h2>
+
+    <!-- ВСТАВЬ СЮДА СВОЙ YOUTUBE IFRAME -->
+    <div class="video-placeholder">
+        INSERT YOUTUBE VIDEO HERE
+    </div>
+</div>
+
+<section class="section lyrics">
+    <h2>Lyrics</h2>
+    She's got a smile that it seems to me...
+</section>
+
+<section class="section">
+<h2>Song History</h2>
+
+<p>
+"Sweet Child O' Mine" is one of the most iconic rock songs ever recorded by Guns N' Roses.
+It was released in 1987 as part of their debut album <b>Appetite for Destruction</b>, an album
+that would later become the best-selling debut album in rock history.
+</p>
+
+<p>
+The song began almost accidentally. Guitarist Slash was practicing a warm-up exercise
+during a rehearsal session. What he considered a "joke riff" caught the attention of the band.
+Drummer Steven Adler and bassist Duff McKagan started improvising a rhythm section,
+and the jam quickly evolved into a full song.
+</p>
+
+<p>
+Axl Rose then wrote the lyrics as a tribute to his girlfriend Erin Everly.
+Unlike many hard-rock songs of the era, the lyrics were unusually emotional,
+nostalgic and sincere, focusing on love, childhood memories and vulnerability.
+This contrast helped the song stand out from the glam metal scene of the late 1980s.
+</p>
+
+<p>
+When the album was first released, the band did not expect this track to become a major single.
+However, radio stations began playing it heavily, and in 1988 the song reached
+<b>#1 on the Billboard Hot 100</b>.
+</p>
+
+<p>
+The music video also became a staple on MTV. Instead of a cinematic storyline,
+the band chose to show rehearsal footage. This gave audiences a raw, authentic look
+at the group and strengthened their image as a real rock band rather than a glam production.
+</p>
+
+<p>
+Today, the opening guitar riff is widely considered one of the most recognizable riffs in rock history.
+The song remains a defining anthem of the late 1980s and a cornerstone of Guns N' Roses' legacy.
+</p>
+</section>
+
+<footer>
+© 2026 Rock Fan Page
+</footer>
+
+</body>
+</html>
